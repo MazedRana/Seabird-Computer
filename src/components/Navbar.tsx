@@ -18,7 +18,7 @@ const Navbar = () => {
     { name: "Home", path: "/", isRoute: true },
     { name: "Packages", path: "#packages", isRoute: false },
     { name: "Bill Pay", path: "/bill-pay", isRoute: true },
-    { name: "Media", path: "/ftp-servers", isRoute: true, isExternal: false },
+    { name: "FTP Server", path: "/ftp-servers", isRoute: true, isExternal: false },
     { name: "About", path: "#about", isRoute: false },
     { name: "Contact", path: "#contact", isRoute: false },
     { name: "Get Connection", path: "/request-connection", isRoute: true },
