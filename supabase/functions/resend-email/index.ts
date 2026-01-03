@@ -222,7 +222,7 @@ const handler = async (req: Request): Promise<Response> => {
       html: emailHtml,
     });
 
-    console.log("Email sent successfully using:", { from: fromAddress, to: ["mazedrana.seabirdisp@gmail.com", "seabirdisp@gmail.com"] });
+    console.log("Email sent successfully using:", { from: fromAddress, to: ["seabirdisp@gmail.com"] });
 
     return new Response(JSON.stringify({ success: true, data: emailResponse }), {
       status: 200,
