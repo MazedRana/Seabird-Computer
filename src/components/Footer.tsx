@@ -128,7 +128,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-12 pt-8 border-t border-primary/20 text-center space-y-2">
           <p className="text-sm text-muted-foreground">
-            © 2025 Seabird Computer. All rights reserved.
+            © 2026 Seabird Computer. All rights reserved.
           </p>
              <p className="text-sm text-muted-foreground" style={{ display: 'none' }}>
               Developed by <span className="text-primary font-semibold">Mazed Rana</span>
