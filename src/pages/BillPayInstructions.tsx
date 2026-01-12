@@ -262,7 +262,7 @@ const BillPayInstructions = () => {
               </div>
               <h3 className="text-2xl font-bold mb-2">Need Assistance?</h3>
               <p className="text-muted-foreground mb-6 max-w-md mx-auto">
-                Our support team is available 24/7 to help you with any payment issues
+                Our support team is available to help you. Home support visits: 10:00 AM–8:00 PM. For immediate help, use WhatsApp.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button

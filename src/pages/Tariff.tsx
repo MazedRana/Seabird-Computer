@@ -127,7 +127,7 @@ const Tariff = () => {
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">✓</span>
-                    <span>24/7 technical support</span>
+                    <span>Technical support (home visits: 10:00 AM–8:00 PM)</span>
                   </li>
                 </ul>
               </div>

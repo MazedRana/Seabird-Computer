@@ -47,8 +47,8 @@ const Index = () => {
     },
     {
       icon: Headphones,
-      title: "24/7 Support",
-      description: "Round-the-clock customer support ready to assist you anytime",
+          title: "Support",
+          description: "Customer Support — Home visits available from 10:00 AM to 8:00 PM",
     },
     {
       icon: Wifi,
@@ -703,6 +703,8 @@ const Index = () => {
                   </AccordionTrigger>
                   <AccordionContent className="text-muted-foreground">
                     First, try these quick troubleshooting steps: <strong>1)</strong> Restart your router by unplugging it for 30 seconds, <strong>2)</strong> Check all cable connections, <strong>3)</strong> Try connecting via ethernet cable to rule out Wi-Fi issues. If the problem persists, contact our 24/7 support team at <strong>09639-100200</strong> or WhatsApp <strong>01915-451763</strong>. Our technical team will assist you immediately.
+                                      First, try these quick troubleshooting steps: <strong>1)</strong> Restart your router by unplugging it for 30 seconds, <strong>2)</strong> Check all cable connections, <strong>3)</strong> Try connecting via ethernet cable to rule out Wi-Fi issues. If the problem persists, contact our support team (home visits 10:00 AM–8:00 PM) or WhatsApp <strong>01915-451763</strong> for immediate assistance. Our technical team will assist you promptly.
+                                  <p className="text-sm text-muted-foreground">Have questions? We're here to help — home support visits 10:00 AM–8:00 PM. Use WhatsApp for fastest replies.</p>
                   </AccordionContent>
                 </AccordionItem>
 

@@ -102,7 +102,7 @@ const About = () => {
                 </div>
                 <h3 className="text-xl font-semibold">Support</h3>
                 <p className="text-sm text-muted-foreground">
-                  24/7 customer service ready to help whenever you need us
+                  Customer service ready to help — home support visits 10:00 AM–8:00 PM
                 </p>
               </div>
             </div>
