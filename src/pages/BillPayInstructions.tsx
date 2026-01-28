@@ -86,9 +86,6 @@ const BillPayInstructions = () => {
                       <img src="/bkash-qr.png" alt="bKash QR Code" className="w-full h-full object-contain" />
                       */}
                     </div>
-                    <p className="text-sm text-center text-muted-foreground">
-                      Open bKash app → Scan QR → Enter your bill amount → Enter your Username → Complete payment
-                    </p>
                   </div>
                 </div>
 
