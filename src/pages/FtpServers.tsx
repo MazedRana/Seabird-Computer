@@ -11,10 +11,11 @@ const iccFtpServers = [
 ];
 
 const liveTvServers = [
-  { name: "Live TV 1", url: "https://kbtvpro.totalh.net/", type: "live" },
-  { name: "Live TV 2", url: "https://fanzone-omega.vercel.app/", type: "live" },
-  { name: "Live TV 3", url: "https://iptv.devsolux.net/?fbclid=IwY2xjawO7bd5leHRuA2FlbQIxMABicmlkETF2YkpWbFZTTnhBM3VFQlVac3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHoqa27RZsEop4LCe8DLGglP6275M-B1wcqcwmOe1mblQZnB8L5uCDMUbjA2x_aem_HexhifZvXiHe2HpOj6_adA", type: "live" },
-  { name: "Live TV 4", url: "https://crocodilebox.free.nf/t/?pl=0", type: "live" },
+  { name: "Live TV 1", url: "http://103.144.89.251/", type: "live" },
+  { name: "Live TV 2", url: "https://kbtvpro.totalh.net/", type: "live" },
+  { name: "Live TV 3", url: "https://fanzone-omega.vercel.app/", type: "live" },
+  { name: "Live TV 4", url: "https://iptv.devsolux.net/?fbclid=IwY2xjawO7bd5leHRuA2FlbQIxMABicmlkETF2YkpWbFZTTnhBM3VFQlVac3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHoqa27RZsEop4LCe8DLGglP6275M-B1wcqcwmOe1mblQZnB8L5uCDMUbjA2x_aem_HexhifZvXiHe2HpOj6_adA", type: "live" },
+  
 ];
 
 const mediaAndMovieServers = [
@@ -30,7 +31,7 @@ const mediaAndMovieServers = [
   { name: "Free Funz Site", url: "https://freefunz.site/", type: "movie", tag: "External — Unverified" },
   { name: "Online Movies Hindi", url: "https://111.90.159.132/", type: "movie", tag: "External — Unverified" },
   { name: "Mp 4 Moviez", url: "https://www.mp4moviez.fail/", type: "movie", tag: "External — Unverified" },
-  { name: "Southfreak.art", url: "https://southfreak.art/", type: "movie", tag: "External — Unverified" },
+  { name: "Southfreak", url: "https://southfreak.art/", type: "movie", tag: "External — Unverified" },
 ];
 
 const FtpServers = () => {
