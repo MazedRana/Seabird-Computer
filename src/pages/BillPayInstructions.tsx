@@ -37,7 +37,7 @@ const BillPayInstructions = () => {
               Bill Payment <span className="gradient-text">Made Easy</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Pay your Seabird internet bill instantly through Bkash or Nagad with our streamlined process
+              Pay your Seabird internet bill instantly through bKash or Nagad with our streamlined process
             </p>
           </div>
         </div>
@@ -47,14 +47,14 @@ const BillPayInstructions = () => {
       <section className="pb-20">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto space-y-8">
-            {/* Bkash Merchant */}
+            {/* bKash Merchant */}
             <div className="glass-card rounded-xl p-8 animate-fade-in border-pink-500/20 hover:border-pink-500/40 transition-all duration-300">
               <div className="flex items-center gap-4 mb-8">
                 <div className="w-16 h-16 rounded-full bg-gradient-to-br from-pink-500/30 to-pink-600/30 flex items-center justify-center backdrop-blur-sm">
                   <Smartphone className="w-8 h-8 text-pink-500" />
                 </div>
                 <div>
-                  <h2 className="text-3xl font-bold bg-gradient-to-r from-pink-500 to-pink-600 bg-clip-text text-transparent">Bkash Merchant</h2>
+                  <h2 className="text-3xl font-bold bg-gradient-to-r from-pink-500 to-pink-600 bg-clip-text text-transparent">bKash Merchant</h2>
                   <p className="text-muted-foreground">Fast & secure payment method</p>
                 </div>
               </div>
@@ -73,17 +73,17 @@ const BillPayInstructions = () => {
                         <div className="text-center">
                           <div className="w-40 h-40 rounded-lg overflow-hidden mb-2">
                            <img
-                             src="/bkash-qr.png"
-                              alt="Bkash QR Code"
+                             src="/bKash-qr.png"
+                              alt="bKash QR Code"
                               className="w-full h-full object-contain"
                               />
                                </div>
                                 
                           </div>
-                        <p className="text-xs text-pink-500 font-semibold">Bkash QR Code</p>
+                        <p className="text-xs text-pink-500 font-semibold">bKash QR Code</p>
                       </div>
                       {/* To add your QR code image, replace the above div with:
-                      <img src="/bkash-qr.png" alt="Bkash QR Code" className="w-full h-full object-contain" />
+                      <img src="/bKash-qr.png" alt="bKash QR Code" className="w-full h-full object-contain" />
                       */}
                     </div>
                   </div>
@@ -120,11 +120,11 @@ const BillPayInstructions = () => {
                   </h3>
                   <div className="space-y-3">
                     {[
-                      "Open your Bkash app and select 'Payment'",
+                      "Open your bKash app and select 'Payment'",
                       "Enter merchant number: 01915-451763 (or scan QR code above)",
                       "Enter your bill amount",
                       { text: "Add your Username in the reference field", icon: User },
-                      "Enter your Bkash PIN to confirm",
+                      "Enter your bKash PIN to confirm",
                       "Save the transaction ID and send it to us via WhatsApp"
                     ].map((step, index) => (
                       <div key={index} className="flex items-start gap-3 p-3 rounded-lg hover:bg-pink-500/5 transition-colors">
