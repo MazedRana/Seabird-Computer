@@ -93,9 +93,8 @@ const LiveChat = () => {
 ✅ 99.9% uptime guarantee
 ✅ Enhanced BDIX speeds (50-100 Mbps local content)
 ✅ Priority customer support (home visits: 10:00 AM–8:00 PM)
-✅ Free professional installation (৳1000 value)
-✅ Router included
-✅ Free maintenance & support
+✅ Professional installation service (installation charge applies)
+✅ Maintenance & support available
 
 💰 **One-Time Connection Charge:** ৳1000 only
 

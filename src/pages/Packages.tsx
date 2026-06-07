@@ -56,11 +56,11 @@ const Packages = () => {
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 rounded-full bg-primary"></div>
-                  <span>Free installation</span>
+                  <span>Installation charge applies</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 rounded-full bg-primary"></div>
-                  <span>Free router on yearly plans</span>
+                  <span>Router purchase may apply</span>
                 </li>
               </ul>
               <ul className="space-y-2">

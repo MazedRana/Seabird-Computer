@@ -123,7 +123,7 @@ const Tariff = () => {
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">✓</span>
-                    <span>Free router and installation</span>
+                    <span>Installation service available with connection charge</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">✓</span>
