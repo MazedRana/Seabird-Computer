@@ -220,9 +220,8 @@ Exactly as advertised (20-200 Mbps)
 200 Mbps → Maximum speed enthusiasts
 
 **Speed Comparison:**
-🐢 Old DSL: 5-10 Mbps
-🦌 Standard Broadband: 10-20 Mbps
-🚀 **Our Fiber:** 20-200 Mbps consistently!
+� **Our Fiber:** 20-200 Mbps consistently
+✅ Best for streaming, gaming, and multiple devices
 
 **Test Our Speed:**
 📞 Call: 09639-100200
