@@ -4,14 +4,14 @@ import PackageCard from "@/components/PackageCard";
 
 const Packages = () => {
   const packages = [
-    { speed: "20 Mbps", price: "৳600", bdixSpeed: "50 Mbps" },
-    { speed: "25 Mbps", price: "৳700", bdixSpeed: "60 Mbps" },
-    { speed: "30 Mbps", price: "৳800", bdixSpeed: "70 Mbps" },
-    { speed: "40 Mbps", price: "৳1000", bdixSpeed: "80 Mbps" },
-    { speed: "50 Mbps", price: "৳1200", bdixSpeed: "90 Mbps" },
-    { speed: "60 Mbps", price: "৳1500", bdixSpeed: "100 Mbps" },
-    { speed: "70 Mbps", price: "৳2000", bdixSpeed: "100 Mbps" },
-    { speed: "80 Mbps", price: "৳2500", bdixSpeed: "100 Mbps" },
+    { speed: "20 Mbps", price: "৳600" },
+    { speed: "30 Mbps", price: "৳700" },
+    { speed: "40 Mbps", price: "৳800" },
+    { speed: "50 Mbps", price: "৳1000" },
+    { speed: "100 Mbps", price: "৳1200" },
+    { speed: "125 Mbps", price: "৳1500" },
+    { speed: "150 Mbps", price: "৳2000" },
+    { speed: "200 Mbps", price: "৳2500" },
   ];
 
   return (

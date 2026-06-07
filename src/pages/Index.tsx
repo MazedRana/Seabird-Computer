@@ -38,7 +38,7 @@ const Index = () => {
     {
       icon: Zap,
       title: "Lightning Fast",
-      description: "Experience ultra-fast fiber optic internet with speeds up to 80 Mbps",
+      description: "Experience ultra-fast fiber optic internet with speeds up to 200 Mbps",
     },
     {
       icon: Shield,
@@ -59,13 +59,13 @@ const Index = () => {
 
   const allPackages = [
     { speed: "20 Mbps", price: "৳600", highlight: false },
-    { speed: "25 Mbps", price: "৳700", highlight: false },
-    { speed: "30 Mbps", price: "৳800", highlight: false },
-    { speed: "40 Mbps", price: "৳1000", highlight: true },
-    { speed: "50 Mbps", price: "৳1200", highlight: false },
-    { speed: "60 Mbps", price: "৳1500", highlight: false },
-    { speed: "70 Mbps", price: "৳2000", highlight: false },
-    { speed: "80 Mbps", price: "৳2500", highlight: false },
+    { speed: "30 Mbps", price: "৳700", highlight: false },
+    { speed: "40 Mbps", price: "৳800", highlight: true },
+    { speed: "50 Mbps", price: "৳1000", highlight: false },
+    { speed: "100 Mbps", price: "৳1200", highlight: false },
+    { speed: "125 Mbps", price: "৳1500", highlight: false },
+    { speed: "150 Mbps", price: "৳2000", highlight: false },
+    { speed: "200 Mbps", price: "৳2500", highlight: false },
   ];
 
   const handleSubmit = async (e: React.FormEvent) => {

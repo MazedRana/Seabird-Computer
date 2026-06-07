@@ -76,7 +76,30 @@ const LiveChat = () => {
 
     // Package inquiries
     if (msg.includes('package') || msg.includes('plan') || msg.includes('price') || msg.includes('cost') || msg.includes('mbps')) {
-      return `Great question! We have **8 flexible packages** designed for every need:\n\n📊 **Our Packages:**\n• 20 Mbps - ৳600/month (Perfect for browsing)\n• 30 Mbps - ৳800/month (Great for families)\n• 40 Mbps - ৳1000/month ⭐ **Most Popular!**\n• 50 Mbps - ৳1200/month (Smooth 4K streaming)\n• 60 Mbps - ৳1500/month (Professional use)\n• 70 Mbps - ৳2000/month (Heavy usage)\n• 80 Mbps - ৳2500/month (Maximum speed)\n\n✨ **What's Included:**\n✅ Unlimited data (no caps, ever!)\n✅ 99.9% uptime guarantee\n✅ Enhanced BDIX speeds (50-100 Mbps local content)\n✅ Priority customer support (home visits: 10:00 AM–8:00 PM)\n✅ Free professional installation (৳1000 value)\n✅ Router included\n✅ Free maintenance & support\n\n💰 **One-Time Connection Charge:** ৳1000 only\n\n**Can't decide?** Most customers love our 40 Mbps package for the perfect balance of speed and value. What type of usage do you have in mind?`;
+      return `Great question! We have **8 flexible packages** designed for every need:
+
+📊 **Our Packages:**
+• 20 Mbps - ৳600/month (Perfect for home browsing)
+• 30 Mbps - ৳700/month (Ideal for families and streaming)
+• 40 Mbps - ৳800/month (Popular for HD streaming)
+• 50 Mbps - ৳1000/month (Great for multiple users)
+• 100 Mbps - ৳1200/month (Fast for business & gaming)
+• 125 Mbps - ৳1500/month (High-performance plans)
+• 150 Mbps - ৳2000/month (Power users & offices)
+• 200 Mbps - ৳2500/month (Maximum speed enthusiasts)
+
+✨ **What's Included:**
+✅ Unlimited data (no caps, ever!)
+✅ 99.9% uptime guarantee
+✅ Enhanced BDIX speeds (50-100 Mbps local content)
+✅ Priority customer support (home visits: 10:00 AM–8:00 PM)
+✅ Free professional installation (৳1000 value)
+✅ Router included
+✅ Free maintenance & support
+
+💰 **One-Time Connection Charge:** ৳1000 only
+
+**Can't decide?** Most customers love our 40 Mbps package for the perfect balance of speed and value. What type of usage do you have in mind?`;
     }
 
     // New connection
@@ -116,7 +139,40 @@ const LiveChat = () => {
 
     // Upgrade/downgrade package
     if (msg.includes('upgrade') || msg.includes('downgrade') || msg.includes('change package') || msg.includes('switch')) {
-      return `Great news! You can change packages **anytime without penalties**! 🔄\n\n**Flexibility You'll Love:**\n✅ **Upgrade:** Instant activation, pro-rated billing\n✅ **Downgrade:** Changes next billing cycle\n✅ **No Penalties** whatsoever\n✅ **No Contract Lock-in**\n⏱️ Usually processed in 24 hours\n💰 You only pay the difference\n\n**Simple Process:**\n\n📞 **Call our team:**\n☎️ 09639-100200\n💬 WhatsApp: 01915-451763\n\n**Or visit us in person** (we can do it in 5 minutes!)\n\n**Available Upgrades:**\n20 → 30 → 40 → 50 → 60 → 70 → 80 Mbps\n\n**Smart Upgrade Tips:**\n💡 4K streaming? Go for 40 Mbps+\n💡 Multiple users? 50 Mbps recommended\n💡 Business use? 60+ Mbps for reliability\n💡 Gaming? 40+ Mbps with low latency (we offer this!)\n\n**Example Cost Calculation:**\nIf you upgrade from 40 Mbps (৳1000) to 50 Mbps (৳1200):\n• Pay just ৳200 difference (monthly)\n• Instant activation\n• Same day processing\n\nWhich package would be perfect for your needs?`;
+      return `Great news! You can change packages **anytime without penalties**! 🔄
+
+**Flexibility You'll Love:**
+✅ **Upgrade:** Instant activation, pro-rated billing
+✅ **Downgrade:** Changes next billing cycle
+✅ **No Penalties** whatsoever
+✅ **No Contract Lock-in**
+⏱️ Usually processed in 24 hours
+💰 You only pay the difference
+
+**Simple Process:**
+
+📞 **Call our team:**
+☎️ 09639-100200
+💬 WhatsApp: 01915-451763
+
+**Or visit us in person** (we can do it in 5 minutes!)
+
+**Available Upgrades:**
+20 → 30 → 40 → 50 → 100 → 125 → 150 → 200 Mbps
+
+**Smart Upgrade Tips:**
+💡 4K streaming? Go for 40 Mbps+
+💡 Multiple users? 50 Mbps recommended
+💡 Business use? 100+ Mbps for offices and heavy workloads
+💡 Gaming? 100+ Mbps for low latency and fast downloads
+
+**Example Cost Calculation:**
+If you upgrade from 40 Mbps (৳800) to 50 Mbps (৳1000):
+• Pay just ৳200 difference (monthly)
+• Instant activation
+• Same day processing
+
+Which package would be perfect for your needs?`;
     }
 
     // Contract/commitment questions
@@ -131,7 +187,50 @@ const LiveChat = () => {
 
     // Speed/Performance
     if (msg.includes('speed') || msg.includes('fast') || msg.includes('mbps') || msg.includes('bandwidth') || msg.includes('fast internet')) {
-      return `Our fiber optic network delivers **lightning-fast speeds!** ⚡\n\n**Speed That's REAL (Not Fake):**\n✅ **What you buy = What you get**\n✅ No speed throttling ever\n✅ Consistent 24/7 speeds\n✅ No peak hour slowdowns\n✅ Tested & guaranteed\n\n**Speed Breakdown:**\n\n📊 **Standard Speed:**\nExactly as advertised (20-80 Mbps)\n\n🚀 **BDIX Boost:**\n50-100 Mbps on **local content**\n• YouTube faster\n• Facebook faster\n• Local streaming enhanced\n\n🎮 **Low Latency:**\n• Gaming optimized\n• Video calls crystal clear\n• Online multiplayer smooth\n\n**Speed Guide (What Do You Need?):**\n\n20-30 Mbps → Browsing, social media\n40 Mbps ⭐ → 4K streaming, families\n50+ Mbps → Multiple users, working from home\n60+ Mbps → Heavy usage, business\n80 Mbps → Maximum speed enthusiasts\n\n**Speed Comparison:**\n🐢 Old DSL: 5-10 Mbps\n🦌 Standard Broadband: 10-20 Mbps\n🚀 **Our Fiber:** 20-80 Mbps consistently!\n\n**Test Our Speed:**\n📞 Call: 09639-100200\n💬 Demo at our office\n✅ See actual speeds yourself!\n\nWhich speed tier matches your lifestyle?`;
+      return `Our fiber optic network delivers **lightning-fast speeds!** ⚡
+
+**Speed That's REAL (Not Fake):**
+✅ **What you buy = What you get**
+✅ No speed throttling ever
+✅ Consistent 24/7 speeds
+✅ No peak hour slowdowns
+✅ Tested & guaranteed
+
+**Speed Breakdown:**
+
+📊 **Standard Speed:**
+Exactly as advertised (20-200 Mbps)
+
+🚀 **BDIX Boost:**
+50-100 Mbps on **local content**
+• YouTube faster
+• Facebook faster
+• Local streaming enhanced
+
+🎮 **Low Latency:**
+• Gaming optimized
+• Video calls crystal clear
+• Online multiplayer smooth
+
+**Speed Guide (What Do You Need?):**
+
+20-30 Mbps → Browsing, social media
+40 Mbps ⭐ → 4K streaming, families
+50+ Mbps → Multiple users, working from home
+100+ Mbps → Heavy usage, business, gaming
+200 Mbps → Maximum speed enthusiasts
+
+**Speed Comparison:**
+🐢 Old DSL: 5-10 Mbps
+🦌 Standard Broadband: 10-20 Mbps
+🚀 **Our Fiber:** 20-200 Mbps consistently!
+
+**Test Our Speed:**
+📞 Call: 09639-100200
+💬 Demo at our office
+✅ See actual speeds yourself!
+
+Which speed tier matches your lifestyle?`;
     }
 
     // Greeting responses

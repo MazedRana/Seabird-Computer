@@ -41,13 +41,13 @@ const RequestConnection = () => {
 
   const packages = [
     "20 Mbps - ৳600/month",
-    "25 Mbps - ৳700/month",
-    "30 Mbps - ৳800/month",
-    "40 Mbps - ৳1000/month",
-    "50 Mbps - ৳1200/month",
-    "60 Mbps - ৳1500/month",
-    "70 Mbps - ৳2000/month",
-    "80 Mbps - ৳2500/month",
+    "30 Mbps - ৳700/month",
+    "40 Mbps - ৳800/month",
+    "50 Mbps - ৳1000/month",
+    "100 Mbps - ৳1200/month",
+    "125 Mbps - ৳1500/month",
+    "150 Mbps - ৳2000/month",
+    "200 Mbps - ৳2500/month",
   ];
 
   const handleSubmit = async (e: React.FormEvent) => {

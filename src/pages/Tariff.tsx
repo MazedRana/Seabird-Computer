@@ -48,50 +48,50 @@ const Tariff = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    <tr className="border-b border-primary/10">
+                    <tr className="border-b border-primary/10 bg-card/50">
                       <td className="px-6 py-4 font-semibold">20 Mbps</td>
                       <td className="px-6 py-4 text-center text-primary font-bold">৳600</td>
                       <td className="px-6 py-4 text-center">50 Mbps</td>
                       <td className="px-6 py-4 text-center">৳1000</td>
                     </tr>
-                    <tr className="border-b border-primary/10 bg-card/50">
-                      <td className="px-6 py-4 font-semibold">25 Mbps</td>
+                    <tr className="border-b border-primary/10">
+                      <td className="px-6 py-4 font-semibold">30 Mbps</td>
                       <td className="px-6 py-4 text-center text-primary font-bold">৳700</td>
                       <td className="px-6 py-4 text-center">60 Mbps</td>
                       <td className="px-6 py-4 text-center">৳1000</td>
                     </tr>
-                    <tr className="border-b border-primary/10">
-                      <td className="px-6 py-4 font-semibold">30 Mbps</td>
+                    <tr className="border-b border-primary/10 bg-card/50">
+                      <td className="px-6 py-4 font-semibold">40 Mbps</td>
                       <td className="px-6 py-4 text-center text-primary font-bold">৳800</td>
                       <td className="px-6 py-4 text-center">70 Mbps</td>
                       <td className="px-6 py-4 text-center">৳1000</td>
                     </tr>
-                    <tr className="border-b border-primary/10 bg-card/50">
-                      <td className="px-6 py-4 font-semibold">40 Mbps</td>
+                    <tr className="border-b border-primary/10">
+                      <td className="px-6 py-4 font-semibold">50 Mbps</td>
                       <td className="px-6 py-4 text-center text-primary font-bold">৳1000</td>
                       <td className="px-6 py-4 text-center">80 Mbps</td>
                       <td className="px-6 py-4 text-center">৳1000</td>
                     </tr>
-                    <tr className="border-b border-primary/10">
-                      <td className="px-6 py-4 font-semibold">50 Mbps</td>
-                      <td className="px-6 py-4 text-center text-primary font-bold">৳1200</td>
-                      <td className="px-6 py-4 text-center">90 Mbps</td>
-                      <td className="px-6 py-4 text-center">৳1000</td>
-                    </tr>
                     <tr className="border-b border-primary/10 bg-card/50">
-                      <td className="px-6 py-4 font-semibold">60 Mbps</td>
-                      <td className="px-6 py-4 text-center text-primary font-bold">৳1500</td>
+                      <td className="px-6 py-4 font-semibold">100 Mbps</td>
+                      <td className="px-6 py-4 text-center text-primary font-bold">৳1200</td>
                       <td className="px-6 py-4 text-center">100 Mbps</td>
                       <td className="px-6 py-4 text-center">৳1000</td>
                     </tr>
                     <tr className="border-b border-primary/10">
-                      <td className="px-6 py-4 font-semibold">70 Mbps</td>
+                      <td className="px-6 py-4 font-semibold">125 Mbps</td>
+                      <td className="px-6 py-4 text-center text-primary font-bold">৳1500</td>
+                      <td className="px-6 py-4 text-center">100 Mbps</td>
+                      <td className="px-6 py-4 text-center">৳1000</td>
+                    </tr>
+                    <tr className="border-b border-primary/10 bg-card/50">
+                      <td className="px-6 py-4 font-semibold">150 Mbps</td>
                       <td className="px-6 py-4 text-center text-primary font-bold">৳2000</td>
                       <td className="px-6 py-4 text-center">100 Mbps</td>
                       <td className="px-6 py-4 text-center">৳1000</td>
                     </tr>
                     <tr className="bg-primary/5">
-                      <td className="px-6 py-4 font-semibold">80 Mbps</td>
+                      <td className="px-6 py-4 font-semibold">200 Mbps</td>
                       <td className="px-6 py-4 text-center text-primary font-bold">৳2500</td>
                       <td className="px-6 py-4 text-center">100 Mbps</td>
                       <td className="px-6 py-4 text-center">৳1000</td>
