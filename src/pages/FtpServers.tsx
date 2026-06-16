@@ -11,9 +11,9 @@ const iccFtpServers = [
 ];
 
 const liveTvServers = [
-  { name: "Live TV 1", url: "http://103.144.89.251/", type: "live" },
-  { name: "Live TV 2", url: "https://kbtvpro.totalh.net/", type: "live" },
-  { name: "Live TV 3", url: "https://fanzone-omega.vercel.app/", type: "live" },
+  { name: "Live TV 1", url: "https://kheladekho.xyz/", type: "live" },
+  { name: "Live TV 2", url: "https://xniptv.blogspot.com/", type: "live" },
+  { name: "Live TV 3", url: "https://sportzfytvlive.xyz/", type: "live" },
   { name: "Live TV 4", url: "https://tv.asimxtech.online/", type: "live" },
   
 ];
