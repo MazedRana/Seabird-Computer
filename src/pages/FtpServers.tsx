@@ -14,7 +14,7 @@ const liveTvServers = [
   { name: "Live TV 1", url: "https://kheladekho.xyz/", type: "live" },
   { name: "Live TV 2", url: "https://xniptv.blogspot.com/", type: "live" },
   { name: "Live TV 3", url: "https://sportzfytvlive.xyz/", type: "live" },
-  { name: "Live TV 4", url: "https://tv.asimxtech.online/", type: "live" },
+  { name: "Live TV 4", url: "https://kickbd.com/matches/football-world-cup-match-16", type: "live" },
   
 ];
 
@@ -84,6 +84,58 @@ const FtpServers = () => {
               </div>
             </div>
           )}
+          {/* Live TV Servers Section */}
+          <section className="space-y-4">
+            <div className="flex items-center gap-3">
+              <div className="w-8 h-8 rounded-lg bg-amber-500/20 flex items-center justify-center">
+                <Tv className="w-5 h-5 text-amber-500" />
+              </div>
+              <h2 className="text-3xl font-bold">Live TV Channels</h2>
+              <div className="px-3 py-1 rounded-full bg-amber-500/20 text-amber-600 text-xs font-semibold">Streaming</div>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {liveTvServers.map((s) => (
+                <div
+                  key={s.url}
+                  className="group relative p-6 rounded-xl border border-amber-500/20 bg-gradient-to-br from-amber-500/5 to-transparent hover:border-amber-500/50 hover:bg-amber-500/10 transition-all duration-300 cursor-pointer"
+                >
+                  <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-amber-500/0 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  
+                  <div className="relative space-y-4">
+                    <div className="flex items-start justify-between">
+                      <div>
+                        <h3 className="text-lg font-bold text-foreground">{s.name}</h3>
+                        <p className="text-sm text-muted-foreground mt-1">📺 Live Broadcasting</p>
+                      </div>
+                      <div className="w-10 h-10 rounded-lg bg-amber-500/20 flex items-center justify-center group-hover:bg-amber-500/30 transition-colors">
+                        <Tv className="w-5 h-5 text-amber-500" />
+                      </div>
+                    </div>
+
+                    <div className="flex gap-2 pt-2">
+                      <a
+                        href={s.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex-1 px-4 py-2 rounded-lg bg-amber-500 hover:bg-amber-600 text-white font-medium flex items-center justify-center gap-2 transition-colors"
+                      >
+                        <Play className="w-4 h-4" />
+                        Watch
+                      </a>
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={() => copy(s.url, s.name)}
+                        className="px-4"
+                      >
+                        <Copy className="w-4 h-4" />
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
 
           {/* ICC FTP Servers Section */}
           <section className="space-y-4">
@@ -196,59 +248,7 @@ const FtpServers = () => {
               ))}
             </div>
           </section>
-
-          {/* Live TV Servers Section */}
-          <section className="space-y-4">
-            <div className="flex items-center gap-3">
-              <div className="w-8 h-8 rounded-lg bg-amber-500/20 flex items-center justify-center">
-                <Tv className="w-5 h-5 text-amber-500" />
-              </div>
-              <h2 className="text-3xl font-bold">Live TV Channels</h2>
-              <div className="px-3 py-1 rounded-full bg-amber-500/20 text-amber-600 text-xs font-semibold">Streaming</div>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {liveTvServers.map((s) => (
-                <div
-                  key={s.url}
-                  className="group relative p-6 rounded-xl border border-amber-500/20 bg-gradient-to-br from-amber-500/5 to-transparent hover:border-amber-500/50 hover:bg-amber-500/10 transition-all duration-300 cursor-pointer"
-                >
-                  <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-amber-500/0 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                  
-                  <div className="relative space-y-4">
-                    <div className="flex items-start justify-between">
-                      <div>
-                        <h3 className="text-lg font-bold text-foreground">{s.name}</h3>
-                        <p className="text-sm text-muted-foreground mt-1">📺 Live Broadcasting</p>
-                      </div>
-                      <div className="w-10 h-10 rounded-lg bg-amber-500/20 flex items-center justify-center group-hover:bg-amber-500/30 transition-colors">
-                        <Tv className="w-5 h-5 text-amber-500" />
-                      </div>
-                    </div>
-
-                    <div className="flex gap-2 pt-2">
-                      <a
-                        href={s.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex-1 px-4 py-2 rounded-lg bg-amber-500 hover:bg-amber-600 text-white font-medium flex items-center justify-center gap-2 transition-colors"
-                      >
-                        <Play className="w-4 h-4" />
-                        Watch
-                      </a>
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        onClick={() => copy(s.url, s.name)}
-                        className="px-4"
-                      >
-                        <Copy className="w-4 h-4" />
-                      </Button>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </section>
+ 
 
           {/* Movie Servers Section - REMOVED, merged with Media & Movie Files above */}
 
