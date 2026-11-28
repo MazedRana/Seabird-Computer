@@ -1,5 +1,6 @@
 {
-  "rewrites": [
-    { "source": "/((?!assets|favicon|SeabirdLogo).*)", "destination": "/" }
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
