@@ -9,7 +9,6 @@ import Footer from "@/components/Footer";
 import LiveChat from "@/components/LiveChat";
 import FeatureCard from "@/components/FeatureCard";
 import PackageCard from "@/components/PackageCard";
-import { sendEmail } from "@/lib/sendEmail";
 import {
   Accordion,
   AccordionContent,
@@ -68,7 +67,7 @@ const Index = () => {
     { speed: "200 Mbps", price: "৳2500", highlight: false },
   ];
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
     if (!formData.name || !formData.phone || !formData.message) {
@@ -80,30 +79,22 @@ const Index = () => {
       return;
     }
 
-    try {
-      const success = await sendEmail({
-        formType: 'contact',
-        name: formData.name,
-        phone: formData.phone,
-        message: formData.message,
-      });
+    const dot = "\u25CF";  // ●
+    const message =
+      `*Contact Message*\n` +
+      `\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\n` +
+      `${dot} *Name:* ${formData.name}\n` +
+      `${dot} *Phone:* ${formData.phone}\n\n` +
+      `${dot} *Message:*\n${formData.message}`;
 
-      if (!success) throw new Error('Failed to send');
+    window.open(`https://wa.me/8801915451763?text=${encodeURIComponent(message)}`, "_blank");
 
-      toast({
-        title: "Message Sent!",
-        description: "We'll get back to you as soon as possible.",
-      });
+    toast({
+      title: "WhatsApp Opened!",
+      description: "Just tap Send in WhatsApp to complete your message.",
+    });
 
-      setFormData({ name: "", phone: "", message: "" });
-    } catch (error) {
-      console.error('Error sending message:', error);
-      toast({
-        title: "Error",
-        description: "Failed to send message. Please try calling us directly.",
-        variant: "destructive",
-      });
-    }
+    setFormData({ name: "", phone: "", message: "" });
   };
 
   const handleWhatsApp = () => {
@@ -889,7 +880,7 @@ const Index = () => {
                 </div>
 
                 <Button type="submit" className="w-full bg-primary hover:bg-primary/90 text-white" size="lg">
-                  Send Message
+                  Send via WhatsApp
                 </Button>
               </form>
             </div>

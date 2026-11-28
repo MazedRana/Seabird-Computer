@@ -7,7 +7,6 @@ import { useToast } from "@/hooks/use-toast";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import LiveChat from "@/components/LiveChat";
-import { sendEmail } from "@/lib/sendEmail";
 import {
   Select,
   SelectContent,
@@ -50,7 +49,7 @@ const RequestConnection = () => {
     "200 Mbps - ৳2500/month",
   ];
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
     if (!formData.fullName || !formData.phone || !formData.email || !formData.nid || !formData.address || !formData.package || !formData.billingDate) {
@@ -62,45 +61,39 @@ const RequestConnection = () => {
       return;
     }
 
-    try {
-      const success = await sendEmail({
-        formType: 'connection',
-        name: formData.fullName,
-        phone: formData.phone,
-        email: formData.email,
-        nid: formData.nid,
-        address: formData.address,
-        package: formData.package,
-        billingDate: formData.billingDate,
-        additionalInfo: formData.additionalInfo,
-      });
+    const billingLabel = `${formData.billingDate}th of each month`;
 
-      if (!success) throw new Error('Failed to send');
+    const dot = "\u25CF";  // ●
+    const message =
+      `*New Connection Request*\n` +
+      `\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\n` +
+      `${dot} *Name:* ${formData.fullName}\n` +
+      `${dot} *Phone:* ${formData.phone}\n` +
+      `${dot} *Email:* ${formData.email}\n` +
+      `${dot} *NID:* ${formData.nid}\n` +
+      `${dot} *Address:* ${formData.address}\n` +
+      `${dot} *Package:* ${formData.package}\n` +
+      `${dot} *Billing Date:* ${billingLabel}\n` +
+      (formData.additionalInfo ? `\n${dot} *Notes:*\n${formData.additionalInfo}` : "");
 
-      toast({
-        title: "Request Submitted!",
-        description: "We'll contact you within 2 hours to confirm your connection.",
-      });
+    window.open(`https://wa.me/8801915451763?text=${encodeURIComponent(message)}`, "_blank");
 
-      // Reset form
-      setFormData({
-        fullName: "",
-        phone: "",
-        email: "",
-        nid: "",
-        address: "",
-        package: "",
-        billingDate: "",
-        additionalInfo: "",
-      });
-    } catch (error) {
-      console.error("Error submitting request:", error);
-      toast({
-        title: "Error",
-        description: "Failed to submit request. Please try again or contact us directly.",
-        variant: "destructive",
-      });
-    }
+    toast({
+      title: "WhatsApp Opened!",
+      description: "Just tap Send in WhatsApp to complete your request.",
+    });
+
+    // Reset form
+    setFormData({
+      fullName: "",
+      phone: "",
+      email: "",
+      nid: "",
+      address: "",
+      package: "",
+      billingDate: "",
+      additionalInfo: "",
+    });
   };
 
   return (
@@ -323,7 +316,7 @@ const RequestConnection = () => {
                   className="w-full bg-primary hover:bg-primary/90 text-white"
                   size="lg"
                 >
-                  Submit Connection Request
+                  Send via WhatsApp
                 </Button>
 
                 <p className="text-sm text-muted-foreground text-center">
